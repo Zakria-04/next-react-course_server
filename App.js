@@ -3,7 +3,6 @@ const mongoose = require("mongoose");
 const Routes = require("./API/Routes/Routes");
 const USER_MODEL = require("./API/Models/user.module");
 let cors = require("cors");
-app.use(cors())
 
 const app = express();
 app.use(express.json());
