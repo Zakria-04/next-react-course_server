@@ -7,7 +7,6 @@ const UserSchema = new Schema({
   },
   userPass: {
     type: String,
-    required: true,
   },
   phone: {
     type: Number,
