@@ -5,9 +5,6 @@ const UserSchema = new Schema({
     type: String,
     required: true,
   },
-  userPass: {
-    type: String,
-  },
   phone: {
     type: Number,
     required: true,
