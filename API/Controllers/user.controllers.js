@@ -1,11 +1,10 @@
 const USER_MODEL = require("../Models/user.module");
 
 const userApplication = (req, res) => {
-  const { userName, userPass, phone, location } = req.body;
+  const { userName, phone, location } = req.body;
 
   USER_MODEL.create({
     userName: userName,
-    userPass: userPass,
     phone: phone,
     location: location,
   })
